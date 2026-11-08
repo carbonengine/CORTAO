@@ -242,7 +242,7 @@ Some graphics APIs (e.g. DirectX) has a mismatch between the Y directions of NDC
 <h3 id="projection-matrix">float projectionMatrix[4][4]</h3>
 The projection matrix used to render the scene. For performance reasons, CORTAO places heavy limitations on what kind of projection matrices are supported. The projection matrix:
 
-- must to be a standard perspective projection matrix.
+- must be a standard perspective projection matrix.
 - may have an off-center projection.
 - must NOT have any rotation or translational components components (apart from an off-center projection).
 
