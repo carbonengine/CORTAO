@@ -143,11 +143,11 @@ CORTAO relies on using the SampleLevel() and Gather() functions on integer forma
 
 <h2>Graphics API support</h2>
 
-Through GLSL and HLSL, the CORTAO shaders have been tested and confirmed working as is with:
+The Carbon Engine CORTAO shaders have been tested and confirmed working as is with:
 - DirectX 11 (with Shader Model 6.7 workaround)
 - DirectX 12
 
-Other APIs can be used through cross-compilation of HLSL.
+Other APIs can be used with CORTAO through cross-compilation of HLSL.
 
 <h2>Coordinate system</h2>
 
