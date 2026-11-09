@@ -1,6 +1,8 @@
 <h1>CORTAO Carbon Engine Implementation</h1>
 
-[![YouTube Video](https://img.youtube.com/vi/GUQ2kDgGT-c/0.jpg)](https://www.youtube.com/watch?v=GUQ2kDgGT-c)
+<a href="https://www.youtube.com/watch?v=GUQ2kDgGT-c">
+  <img src="images/cortao-youtube-tile.png" width="100%">
+</a>
 
 <h1>Table of contents</h1>
 
