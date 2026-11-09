@@ -35,7 +35,9 @@
 
 <h1>Introduction</h1>
 
-Circular Occluder Ray-Traced Ambient Occlusion, or CORTAO, is a new physically based real-time screen space ambient occlusion (SSAO) technique developed by [Daniel Isheden](https://www.linkedin.com/in/daniel-isheden/). Unlike existing state-of-the-art horizon-based SSAO techniques, CORTAO uses a completely new approach to physically based ambient occlusion derived from screen space raytracing to calculate occlusion and bent normals. Traditional depth buffer sampling is performed to constructs a simplified approximation of the neighborhood around each pixel consisting of circular occluders. Raytracing is then performed against this proxy geometry instead, allowing up to 32 rays per pixel to be efficiently traced for a fraction of the usual cost expected of screen space raytracing. The end result is a performant, highly scalable, physically correct SSAO technique.
+Circular Occluder Ray-Traced Ambient Occlusion, or CORTAO, is a new physically based real-time screen space ambient occlusion (SSAO) technique developed by [Daniel Isheden](https://www.linkedin.com/in/daniel-isheden/).
+
+Unlike existing state-of-the-art horizon-based SSAO techniques, CORTAO uses a completely new approach to physically based ambient occlusion derived from screen space raytracing to calculate occlusion and bent normals. Traditional depth buffer sampling is performed to constructs a simplified approximation of the neighborhood around each pixel consisting of circular occluders. Raytracing is then performed against this proxy geometry instead, allowing up to 32 rays per pixel to be efficiently traced for a fraction of the usual cost expected of screen space raytracing. The end result is a performant, highly scalable, physically correct SSAO technique.
 
 <p align="center">
   <img src="images/circularoccluders.gif" alt="animated" title="A visualization of how CORTAO works."/>
@@ -417,7 +419,7 @@ ParamsA --> PassA
 - Loads a hardware depth value from the user-provided input depth buffer.
 - This callback is only called for pixels within the image bounds, so no bounds checking is needed.
 
-``float CortaoLoadNormal(int2 pixelCoords)``
+``float3 CortaoLoadNormal(int2 pixelCoords)``
 - Loads a normal from the user-provided input normal buffer.
 - <ins>The user is responsible for converting the normal to a normalized view space normal in the range [-1, +1]</ins>:
   - If the normal is packed/encoded, it must first be unpacked/decoded to a 3D vector before being passed to CORTAO.
