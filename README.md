@@ -33,13 +33,13 @@
 
 <h1>Introduction</h1>
 
-Circular Occluder Ray-Traced Ambient Occlusion, or CORTAO, is a new physically based real-time screen space ambient occlusion (SSAO) technique developed by Daniel Isheden, Senior Rendering Engineer at Fenris Creations. Unlike existing state-of-the-art horizon-based SSAO techniques, CORTAO uses a completely new approach to physically based ambient occlusion derived from screen space raytracing to calculate occlusion and bent normals. Traditional depth buffer sampling is performed to constructs a simplified approximation of the neighborhood around each pixel consisting of circular occluders. Raytracing is then performed against this proxy geometry instead, allowing up to 32 rays per pixel to be efficiently traced for a fraction of the usual cost expected of screen space raytracing. The end result is a performant, highly scalable, physically correct SSAO technique.
+Circular Occluder Ray-Traced Ambient Occlusion, or CORTAO, is a new physically based real-time screen space ambient occlusion (SSAO) technique developed by [Daniel Isheden](https://www.linkedin.com/in/daniel-isheden/). Unlike existing state-of-the-art horizon-based SSAO techniques, CORTAO uses a completely new approach to physically based ambient occlusion derived from screen space raytracing to calculate occlusion and bent normals. Traditional depth buffer sampling is performed to constructs a simplified approximation of the neighborhood around each pixel consisting of circular occluders. Raytracing is then performed against this proxy geometry instead, allowing up to 32 rays per pixel to be efficiently traced for a fraction of the usual cost expected of screen space raytracing. The end result is a performant, highly scalable, physically correct SSAO technique.
 
 <p align="center">
   <img src="images/circularoccluders.gif" alt="animated" title="A visualization of how CORTAO works."/>
 </p>
 
-The Carbon Engine implementation is a streamlined version of CORTAO optimized for EVE: Frontier. It utilizes a maximum screen space radius to handle the extreme depth ranges of the EVE universe, providing high performance SSAO tailored for extremely large worlds.
+The Carbon Engine implementation is a streamlined version of CORTAO optimized for EVE: Frontier. It utilizes a maximum screen space radius to handle the extreme depth ranges of the EVE universe, providing high performance, high quality SSAO tailored for extremely large worlds.
 
 <h2>Reference implementation</h2>
 
