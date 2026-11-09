@@ -45,7 +45,7 @@ The Carbon Engine implementation is a streamlined version of CORTAO optimized fo
 
 <h2>Reference implementation</h2>
 
-The more generalized reference implementation of CORTAO is available [here](https://github.com/carbonengine/CORTAO).
+The more generalized reference implementation of CORTAO is available [here](https://github.com/theagentd/CORTAO).
 
 <h1>Benchmarks</h1>
 
