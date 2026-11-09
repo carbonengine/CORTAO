@@ -39,7 +39,7 @@ Circular Occluder Ray-Traced Ambient Occlusion, or CORTAO, is a new physically b
   <img src="images/circularoccluders.gif" alt="animated" title="A visualization of how CORTAO works."/>
 </p>
 
-The Carbon Engine implementation is a streamlined version of CORTAO optimized for EVE: Frontier. It utilizes a maximum screen space radius to handle the extreme depth ranges of the EVE universe, providing high performance, high quality SSAO tailored for extremely large worlds.
+The Carbon Engine implementation is a streamlined version of CORTAO optimized for [EVE: Frontier](https://evefrontier.com/). It utilizes a maximum screen space radius to handle the extreme depth ranges of the EVE universe, providing high performance, high quality SSAO tailored for extremely large worlds.
 
 <h2>Reference implementation</h2>
 
