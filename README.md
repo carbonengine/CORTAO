@@ -26,7 +26,6 @@
   - [Shader Model 6.7 workarounds](#shader-model-67-workarounds)
   - [Performance recommendations](#performance-recommendations)
 - [Version log](#version-log)
-- [Credits](#credits)
 - [References](#references)
 - [Contributing](#contributing)
 - [License](#license)
@@ -743,18 +742,6 @@ This section contains a number of tips and tricks for maximizing CORTAO performa
 <h1>Version log</h1>
 
 - 1.00 (2026-11-05): Initial release.
-
-<h1>Credits</h1>
-
-Many thanks to Filip Lundbeck, Graphics Programmer at Avalanche Studios, for encouraging me to revisit the SSAO problem space and spitballing ideas, leading to the derivation and conceptualization of CORTAO as well as many improvements throughout the whole development process, plus early testing and feedback.
-
-Many thanks to Miguel Peterssen at Epic Games, whose countless discussions and incredible knowledge led to numerous great improvements and additions to CORTAO, plus early testing and feedback.
-
-Thanks to Adrian Gurney and Ben Hunter at Fenris Creations for taking an recognizing and believing in the value of my work, and allowing me time to implement CORTAO into the CARBON engine.
-
-Thanks to Jorge Jimenez, one of the creators of GTAO, for inspiring not just the development of CORTAO, but whose work also inspired my thesis project and numerous other personal projects.
-
-... and more, yet-to-be announced collaborations.
 
 <h1>References</h1>
 
